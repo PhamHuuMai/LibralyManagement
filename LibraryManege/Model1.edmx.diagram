@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bd1d9270e43f40b38d61fe7da390d1d2" Name="Diagram1">
+        <EntityTypeShape EntityType="LibraryManageModel.Book" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.Borrow" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.Header" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.Librarian" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.NhaXB" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.Reader" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManageModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="LibraryManageModel.FK_Book_Header" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManageModel.FK_Borrow_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManageModel.FK_Borrow_Librarian" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManageModel.FK_Borrow_Reader" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManageModel.FK_Header_NhaXB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
